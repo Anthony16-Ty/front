@@ -40,7 +40,7 @@ const FormPage = ({ addBooks }) => {
   return (
     <div>
       <form className="form" onSubmit={handleSubmit}>
-        <h4>Add new books here: </h4>
+        <h4>Add book: </h4>
 
         <input
           type="text"
@@ -68,4 +68,6 @@ const FormPage = ({ addBooks }) => {
     </div>
   );
 };
+
+
 export default FormPage;
