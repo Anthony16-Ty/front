@@ -38,7 +38,7 @@ const FormPage = ({ addBooks }) => {
     history.push("/books");
   }
   return (
-    <div>
+    <div className="form-image">
       <form className="form" onSubmit={handleSubmit}>
         <h4>Add book: </h4>
 
@@ -61,10 +61,12 @@ const FormPage = ({ addBooks }) => {
 
         <input className="button" type="submit" />
       </form>
+      <div className="mal-1">
       <img
         alt="book"
-        src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        src="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip"
       ></img>
+    </div>
     </div>
   );
 };
