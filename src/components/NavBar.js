@@ -14,6 +14,9 @@ function NavBar() {
         <NavLink to="/formpage">
           <button className="button">Add Book</button>
         </NavLink>
+        <NavLink to="/About">
+          <button className="button">About</button>
+        </NavLink>
       </div>
     </>
   );

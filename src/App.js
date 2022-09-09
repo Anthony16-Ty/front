@@ -3,8 +3,10 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Books from "./components/Books";
 import FormPage from "./components/FormPage";
+// import About from "./components/About";
 import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
+
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -83,7 +85,9 @@ function App() {
       />
       <Route exact path="/formpage" element={<FormPage  addBooks={addBooks} />} />
       
-      <Route exact path="/" element={<Home />} />
+      <Route exact path="/home" element={<Home />} />
+      <Route exact path="/about" element={<About />} />
+
       
       </Routes>
     </div>

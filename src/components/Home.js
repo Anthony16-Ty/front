@@ -1,28 +1,22 @@
 import React from "react";
 
-
-function  Home()
-
-
-{
-    return (
-        <div>
-        <div className='container'>
-           <div className='row justify-content-evenly py-5'>
-               <div className='col-12 col-md-6 mt-5 mt-md-0'>
-                 <h2 className='mb-0'>PRESTO</h2>
-                 <h1 style={{fontWeight:1000}}>Presto is the real deal</h1>
-                 <p style={{fontWeight: 600}}>Welcome to the presto! You can add books you have read, or would like to read. You can add reviews and rate books based on how you liked them!.</p>
-                </div>
-                <div className='col-sm-8 col-md-5'>
-                   <img className='img-fluid' src="https://media.istockphoto.com/photos/open-book-picture-id152992783?k=20&m=152992783&s=612x612&w=0&h=BRdZgX9LFc1MGk6m2lM2HNC4GklxLQYFZbTw62R9Meg=" alt="books img"/>
-               </div>
-               </div>
-           </div>
-        </div>
-    );
-}
-    
-
+const Home = () => {
+  return (
+    <>
+      <div>
+        <h1>Book Tracker App</h1>
+        <p>
+          Welcome to the book tracker app! You can add books you have read, or
+          would like to read. You can add reviews and rate books based on how
+          you liked them!
+        </p>
+        <img
+          alt="books"
+          src="https://images.unsplash.com/photo-1498906538030-8da82e61e424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGJvb2tzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+    </>
+  );
+};
 
 export default Home;
