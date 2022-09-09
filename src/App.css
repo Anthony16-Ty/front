@@ -1,11 +1,11 @@
 .App {
   text-align: center;
 }
-hr {
+/* hr {
   width: 45%;
   border: 1px solid;
   color: #17264f;
-}
+} */
 .button {
   margin: 10px;
   height: 40px;
@@ -14,7 +14,7 @@ hr {
   background-color: rgb(217, 204, 18);
   font-family: cursive, Helvetica, sans-serif;
   font-weight: bold;
-  transition: 0.7s;
+  
 }
 .navbar {
   margin: 0px;
@@ -25,7 +25,7 @@ hr {
   width: 100%;
   text-align: center;
   overflow: visible;
-  height: 90px;
+  height: 60px;
   background-color: #d9dbe4;
 
   padding: 0px;
@@ -38,7 +38,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: #f0f2f8;
   text-align: center;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: rgb(105, 122, 112);
   border-width: 4px;
   margin: 70px;
@@ -68,7 +68,7 @@ img {
   background-color: rgb(157, 182, 168);
 }
 .bookCard:hover {
-  background-color: rgb(33, 103, 62);
+  background-color: rgb(7, 34, 18);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 .noBullet {
