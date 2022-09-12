@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 
 const AddReview = ({ addReview, book }) => {
@@ -19,7 +21,7 @@ const AddReview = ({ addReview, book }) => {
       book_id: newReview.book_id,
     };
 
-    fetch(`https://presto-backend-app.herokuapp.com//books/${book.id}/reviews`, {
+    fetch(`https://presto-backend-app.herokuapp.com//${book.id}/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -53,4 +55,3 @@ const AddReview = ({ addReview, book }) => {
   );
 };
 export default AddReview;
-
