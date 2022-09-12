@@ -19,7 +19,7 @@ const AddReview = ({ addReview, book }) => {
       book_id: newReview.book_id,
     };
 
-    fetch(`http://localhost:9292/books/${book.id}/reviews`, {
+    fetch(`https://presto-backend-app.herokuapp.com//books/${book.id}/reviews`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

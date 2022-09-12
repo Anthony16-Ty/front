@@ -12,8 +12,8 @@ function Home()
 
 
                  <h1 className='mb-0'>CODEX</h1>
-                 <h2 style={{fontWeight:1000}}>Codex is the real deal</h2>
-                 <p style={{fontWeight: 600}}>Welcome to the book tracker app! You can add books you have read, or would like to read. You can add reviews and rate books based on how you liked them!.</p>
+                 
+                 <p style={{fontWeight: 600}}>Welcome to Presto! You can books and novels you've read or you would like to read.You can rate them them based on how you like them</p>
                 </div>
                <div className='col-sm-8 col-md-5'>
                    <img className='img-fluid' src="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip" alt="about us img"/>
